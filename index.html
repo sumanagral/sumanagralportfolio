@@ -1,0 +1,1418 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>vCard - Personal Portfolio</title>
+  
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" style="width:40%; "data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box" style="border-radius: 90px; padding: 1px; border: 1px solid #000000; background-color:white;   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        ">
+          <img src="./assets/images/image3.jpeg" alt="Suma Nagral" width="100%" style="border-radius: 90px;">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Suma Nagral">Suma Nagral</h1>
+
+          <p class="title">Software Developer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:richard@example.com" class="contact-link">sumanagral8@gmail.com</a>
+            </div>
+
+          </li>
+
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>San Jose, California, USA</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+          
+        </ul>
+
+      </nav>
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        
+        <section class="about-text">
+
+<section style="padding: 5px;">
+  <h1 style="text-align: center;">Welcome to Suma's Digital Nook</h1>
+  <h2 style="text-align: center;"><strong>Where Curiosity Codes the Future</strong></h2>
+  <p style="text-align: justify; font-size: 18px;">
+    <br>  Hi there! I'm <strong>Suma</strong>, and if you've stumbled upon this corner of the internet, you're in for a journey through the synapses of a software engineer's brain, one that's as fascinated by the intricacies of cloud computing as it is by the philosophical musings on existence.
+  </p>
+
+  <h3 style="color: #333;">The Road Less Coded</h3>
+  <p style="text-align: justify; font-size: 18px;">
+      Sure, my academic credentials from San Jose State University and University of Mumbai speak to a strong foundation in software engineering, evidenced by a solid 3.81 GPA. But the keystrokes of my career are more than just GPA and technical skills. They are about finding the extraordinary in the ordinary, be it in a line of code or a pattern in the chaos. This journey hasn't just been about the challenges and triumphs within academia; it's been a pursuit of magic outside the conventional classroom settings.
+  </p>
+
+  <h3 style="color: #333;">More Than Just Syntax</h3>
+  <p style="text-align: justify; font-size: 18px;">
+      As for skills, if there's a technology out there, chances are I've flirted with it. From tinkering with AWS (we are practically “dating”) to choreographing data flows in Python and Java, my toolkit is ready for problem-solving across any domain. React.js? It’s complicated. And when it comes to Docker and Kubernetes, let's just say things are getting pretty serious. My journey from leading a backend overhaul at Kinai Infotech to fostering young minds as a Teaching Associate has been a profound lesson in the impact of technology—it's only as meaningful as the purpose it serves. Thus, I tend to approach problems with a holistic view. It’s about crafting solutions that resonate, not just function.
+  </p>
+
+  <h3 style="color: #333;">A Byte of Humility</h3>
+  <p style="text-align: justify; font-size: 18px;">
+      While my resume might suggest I've got it all figured out, the truth is, my journey's been a series of debugged errors, learned lessons, and serendipitous detours. I've learned as much from the times my code refused to compile as from the moments of triumph. Whether it's leading a project or navigating the complexities of a new programming language, the real thrill lies in the learning curve.
+  </p>
+
+  <h3 style="color: #333;">Beyond the Screen</h3>
+  <p style="text-align: justify; font-size: 18px;">
+      My adventures beyond the IDE have been equally formative. Teaching math, engaging with community projects, and even that one time I thought I could outsmart a mountain (spoiler: the mountain won) have instilled in me a sense of responsibility to use my skills for the greater good. Technology, after all, is at its best when it brings people together, bridges gaps, and lights up faces with understanding and empowerment.
+  </h3>
+
+  <h2 style="text-align: center;"><strong> <br> So, Why Are You Really Here?</strong></h2>
+
+  <p style="text-align: justify; font-size: 18px;">
+    Maybe it's to explore the potential for collaboration, to share a laugh over a coding meme, or perhaps to find a solution to a tech puzzle that's been keeping you up at night. Whatever the reason, know that this isn't just a showcase of my professional journey; it's an invitation to connect, learn, and create together in this vast, digital universe.
+</p>
+
+
+        <!--
+          - testimonials
+        -->
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Testimonials</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Daniel lewis</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                    lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                    consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-2.png" alt="Jessica miller" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Jessica miller</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                    lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                    consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-3.png" alt="Emily evans" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Emily evans</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                    lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                    consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-4.png" alt="Henry william" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Henry william</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                    lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                    consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+        <!--
+          - clients
+        -->
+
+        <section class="clients">
+
+          <h3 class="h3 clients-title">Skills</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+              <p>
+                <b>Programming Languages</b><br>
+    Python<br>
+    Java<br>
+    JavaScript<br>
+    C<br>
+    SQL<br>
+    PHP<br>
+    Shell Scripting<br>
+    <br>
+
+              </p>
+            </li>
+
+            <li class="clients-item">
+              <p>
+                <b>Web Development</b><br>
+    HTML5<br>
+    CSS3<br>
+    React.js<br>
+    Angular.js<br>
+    Node.js<br>
+    Express.js<br>
+    Flask<br>
+    REST Services<br>
+    Bootstrap<br>
+    React Native<br>
+    <br>
+  </p>
+            </li>
+
+            <li class="clients-item">
+              <p>
+                Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                lot of experience
+                and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                consectetur adipiscing
+                elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+              </p>
+            </li>
+
+            <li class="clients-item">
+              <p>
+                Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                lot of experience
+                and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                consectetur adipiscing
+                elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+              </p>
+            </li>
+
+            <li class="clients-item">
+              <p>
+                Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                lot of experience
+                and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                consectetur adipiscing
+                elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+              </p>
+            </li>
+
+            <li class="clients-item">
+              <p>
+                Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                lot of experience
+                and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                consectetur adipiscing
+                elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+              </p>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Master of Science in Software Engineering,<span class="unihead">San Jose State University</span></h4>
+
+              <span>2022 — 2024</span>
+
+              <p class="timeline-text">
+                <strong>Coursework:</strong> Enterprise Software Platforms, Software Systems Engineering, Cloud Services, Cloud Technologies, Machine Learning,
+                Virtualisation Technologies, Smartphone Application Development, Data Mining
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Bachelor of Engineering in Information Technology,<span class="unihead"> University of Mumbai</span></h4>
+
+              <span>2017 — 2022</span>
+
+              <p class="timeline-text">
+                <strong>Coursework:</strong> Data Structures and Algorithms, Database Management Systems,
+Operating Systems, Advanced Data Structures and Algorithms,
+Object Oriented Programming, Cloud Computing, Artificial Intelligence,
+Mobile Application Development, Web Technologies, Computer Networks, Microprocessors,
+Computer Organization and Architecture, Automata Theory, Microcontroller
+and Embedded Programming, Internet Programming, Advanced Data Management Technology,
+Cryptography and Network Security, Finance Management,
+Software Engineering with Project Management, Basic Electrical and Electronics Engineering,
+Data Mining and Business Intelligence, DevOps, Wireless Networks, Digital Forensics,
+Enterprise Network Design, Infrastructure Security, Artificial Intelligence,
+Cyber Security and Laws, Internet of Things, Internet of Everything,
+Big Data Analytics, User Interaction Design
+
+              </p>
+
+            </li>
+
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Teaching Associate, San Jose State University</h4>
+
+              <span>August 2023 — Present</span>
+
+              <p class="timeline-text">
+                - Directed 40+ interactive workshops and labs monthly for Calculus 1 and Math 1 courses, engaging 120 undergraduate students across four distinct sections, highlighting skills in project management and adaptability. <br>
+                - Solely managed the evaluation process by grading an average of 120 worksheets weekly, implementing rubrics for consistent and fair assessments, demonstrating strong attention to detail and quality assurance. <br>
+                - Introduced innovative pedagogical techniques such as active learning and group work that led to noticeable gains in academic performance
+
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Backend Engineer Co-op, Kinai Infotech</h4>
+
+              <span>January 2022 — June 2022</span>
+
+              <p class="timeline-text">
+                - Orchestrated backend architecture overhaul for IFEC systems metadata update process with Java, leading to significant efficiency and deployed over 15 RESTful APIs that enhanced content delivery and user engagement by 20% 
+                <br>- Applied SOLID principles to improve code modularity and maintainability, resulting in a 30% reduction in development time and significantly enhanced UX across 10+ apps through strategic backend-frontend integration 
+                <br>- Led the design and deployment of new relational database schemas to optimize metadata management processes
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Software Developer Intern, OneTure Technologies</h4>
+
+              <span>October 2021 — January 2022</span>
+
+              <p class="timeline-text">
+                - Revamped and migrated an old website to a new, scalable, responsive platform, fulfilling client design specifications using HTML, CSS3, PHP, Bootstrap, and JavaScript; ensured high availability with AWS EC2 hosting and S3 storage 
+<br>- Streamlined data migration from legacy to AWS RDS using AWS DMS, ensuring secure, scalable database management
+<br>- Visualized large datasets with up to 50,000 rows for interactive data-driven stories using D3.js
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+        <section class="service">
+
+          <h3 class="h3 service-title">SKILLS</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/proglang.png
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Programming Languages</h4>
+
+                <p class="service-item-text">
+                  Python, Java, JavaScript, C, SQL, PHP, Shell Scripting
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/webdev.png" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web development</h4>
+
+                <p class="service-item-text">HTML5, CSS3, React.js, Angular.js, Node.js, Express.js, Flask, REST Services, Bootstrap, React Native
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/awslogo.png" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Amazon Web Services</h4>
+
+                <p class="service-item-text"> EC2, RDS, VPC, SNS, SQS, Lambda, S3, Cloudformation, Sagemaker, CloudWatch, EMR, Kinesis, IAM, Control Tower, Config, Fargate, ECS, Athena, CLI, Direct Connect, EFS, Beanstalk, Redshift, Step Functions, Codedeploy, Codepipeline</p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/database.png" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Databases</h4>
+
+                <p class="service-item-text">MySQL, PostgreSQL, OracleDB, MSSQL, MongoDB, Firebase, DynamoDB</p>
+              </div>
+            </li>
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/dataeng.png" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Data Engineering</h4>
+
+                <p class="service-item-text">Pandas, TensorFlow, NLP, ETL, Big Data, Hadoop, Apache Spark, Data warehousing, Databricks</p>
+              </div>
+            </li>
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/devops.png" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">DevOps</h4>
+
+                <p class="service-item-text">Docker, Kubernetes, Terraform, Jenkins, GIT, Github, Chef, Puppet, Ansible, </p>
+              </div>
+            </li>
+
+          
+          <li class="service-item">
+
+            <div class="service-icon-box">
+              <img src="./assets/images/ots.png" alt="camera icon" width="40">
+            </div>
+
+            <div class="service-content-box">
+              <h4 class="h4 service-item-title">Others and Tools</h4>
+
+              <p class="service-item-text">Linux, GCP, Azure, Unix </p>
+            </div>
+          </li>
+
+        <li class="service-item">
+
+          <div class="service-icon-box">
+            <img src="./assets/images/agile.png" alt="camera icon" width="40">
+          </div>
+
+          <div class="service-content-box">
+            <h4 class="h4 service-item-title">Soft Skills</h4>
+
+            <p class="service-item-text">Agile, Scrum, Teamwork, Kanban, Jira</p>
+          </div>
+        </li>
+
+      </ul>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Web design</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Graphic design</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Branding</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">WordPress</h5>
+                <data value="50">50%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+        <div class="story-section">
+          <p class="story-quote">Every line of code tells a story.</p>
+          <p class="story-invite">Let's explore what we can build together.</p>
+      </div>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-1.jpg" alt="Design conferences in 2022" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">IoT and Web Development</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">SmartSuit</h3>
+
+                  <p class="blog-text">
+                    SmartSuit is an Arduino-based wearable jacket that monitors various physiological and environmental parameters,
+                     including air quality, ambient temperature, humidity, body temperature, 
+                     SOS, heartbeat, and location. The hardware is linked to a website which 
+                     features multiple user access levels, dynamic dashboards, and emergency 
+                     alerts. Built utilizing HTML, CSS, JavaScript, MySQL, and PHP to visualize 
+                     10+ metrics from multiple suits, allowing the basecamp to make swift and 
+                     efficient decisions in critical situations.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-2.jpg" alt="Best fonts every designer" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">AWS and Full Stack development</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">AWS based Dropbox Clone</h3>
+
+                  <p class="blog-text">
+
+                    The cloud storage application project was a full-stack endeavor designed 
+                    to mimic Dropbox features, employing an array of technologies such as HTML,
+                     CSS, JavaScript, PHP, and SQL. The infrastructure was further bolstered 
+                     by AWS services, including S3 for data storage, EC2 for compute resources, 
+                     RDS MySQL for relational database management, and CloudFront for efficient 
+                     content delivery. High system availability was ensured through the strategic 
+                     use of AWS Route 53 for DNS routing, Elastic Load Balancer for dispersing
+                      incoming requests, and Auto-scaling Groups for dynamic workload management,
+                       resulting in a 99.9% system uptime. Real-time system monitoring was 
+                       instituted via AWS CloudWatch, augmented by Lambda and SNS for automated 
+                       alerting. GitHub integration facilitated collaborative development and 
+                       expedited issue resolution. A cost-benefit analysis was conducted to apply 
+                       AWS S3 Lifecycle Management policies, achieving a 40% reduction in 
+                       operational costs. Application security was fortified through the 
+                       use of HTTPS, AWS IAM policies, and AES-256 encryption techniques.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-3.jpg" alt="Design digest #80" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Fullstack Development</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">
+                    SJSU Pantry Web Application </h3>
+
+                  <p class="blog-text">
+
+                    The project involved the creation of a scalable Student Pantry Web App, deployed on AWS Cloud for optimized performance and user experience. Utilizing a technology stack that included ReactJS for the front-end, NodeJS for the back-end, and MongoDB as the database, the app successfully streamlined pantry operations. A real-time, secure user interface was designed for inventory checks and order placements, which had the effect of reducing queue times and elevating user engagement. To manage deployments and ensure code reliability, a Continuous Integration and Continuous Deployment (CICD) pipeline was established using Jenkins and Docker. Furthermore, JUnit was incorporated for Top-Down system testing, while project milestones and feasibility analysis were effectively managed through Jira, resulting in seamless deployments and dependable feature releases.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-4.jpg" alt="UI interactions of the week" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">AWS and Fullstack Development</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Foodfreaks - Restaurant Review Application</h3>
+
+                  <p class="blog-text">
+                    The Food Freaks project serves as a comprehensive platform for food blogs and restaurant recommendations,
+                     built on a robust technology stack that includes ReactJS for the front-end,
+                      and Java with Spring Boot for the back-end. Deployed on an intricate AWS 
+                      infrastructure, the platform features EC2 instances with auto-scaling 
+                      capabilities and multi-AZ disaster recovery, ensuring high availability 
+                      and fault tolerance. For data storage, DynamoDB is employed, while 
+                      Amazon S3 handles blog image storage, all aligned with cost-efficient 
+                      S3 lifecycle policies. User interactivity is notably enhanced through 
+                      the incorporation of AWS Rekognition, which allows for intelligent 
+                      image-based searches. Additionally, security is fortified through 
+                      AWS Cognito, which manages user authentication. The development 
+                      and deployment workflows are automated through AWS CodePipeline, 
+                      integrated with GitHub, thus facilitating agile development cycles 
+                      and rapid feature releases.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+          
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-5.jpg" alt="The forgotten art of spacing" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">The forgotten art of spacing</h3>
+
+                  <p class="blog-text">
+                    Maxime placeat, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-5.jpg" alt="The forgotten art of spacing" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">The forgotten art of spacing</h3>
+
+                  <p class="blog-text">
+                    Maxime placeat, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-5.jpg" alt="The forgotten art of spacing" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Machine Learning</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">NLPoetica: Advanced Poetry Analysis and Generation</h3>
+
+                  <p class="blog-text">
+                    The project was an in-depth exploration into the role of Natural Language Processing (NLP) in the analysis and generation of poetry, with a particular emphasis on the distinctive styles of William Blake and Robert Frost. It encompassed a thorough study, wherein a large corpus of poems was meticulously scraped and analyzed using state-of-the-art computational techniques for linguistic and thematic insights. A notable achievement of the project was the fine-tuning of the Mistral 7b Large Language Model, specifically tailored for poetry generation, which exhibited a high semantic similarity to the original poets' styles. To enhance the model's ability to generate contextually relevant poetry, Retrieval-Augmented Generation (RAG) was integrated via Weaviate. Moreover, the project included the development of Knowledge Graphs to associate poetic content with contemporary societal issues, highlighting the utility of NLP in literary analysis. A wide range of technologies, including Python, BeautifulSoup, TensorFlow, Weaviate, NetworkX, and various other NLP tools, were utilized. The project provided significant insights into the intricate interplay between language, creativity, and societal discourse, making a substantial contribution to the field of computational creativity.                  </p>
+
+                </div>
+
+              </a>
+            </li>
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-5.jpg" alt="The forgotten art of spacing" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Web Development</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Covatra: COVID-19 cases Tracking Website</h3>
+
+                  <p class="blog-text">
+                    The Covatra website project served as a pivotal platform for tracking COVID-19 cases and facilitating RT-PCR test bookings. The front-end of the website was architected using HTML5, CSS3, and JavaScript, offering a user-friendly interface and responsive design. On the back-end, PHP and MySQL were employed for data processing and storage, respectively. Integration with the covid19api API provided real-time data on the COVID-19 situation, enhancing the platform's reliability and utility. The website thus stood as a comprehensive tool for public health awareness and action, allowing for both monitoring of pandemic trends and easy access to testing services.                  </p>
+
+                </div>
+
+              </a>
+            </li>
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-5.jpg" alt="The forgotten art of spacing" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">IoT</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">
+                    Smart Mirror</h3>
+
+                  <p class="blog-text">
+                    The SmartMirror IoT device project culminated in a wall-mounted mirror designed to serve multiple functions beyond mere reflection. The device integrates real-time data to display essential information such as weather conditions, current time, to-do lists, and news headlines. Furthermore, the system is designed for interactive user experience, as it is equipped with Google Voice Assistant for voice-activated controls. This multi-functionality transforms a traditionally single-purpose household item into a dynamic information hub, effectively marrying convenience and utility in a singular device.                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-6.jpg" alt="Design digest #79" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design digest #79</h3>
+
+                  <p class="blog-text">
+                    Optio cumque nihil impedit uo minus quod maxime placeat, velit esse cillum.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="blog" data-page="blog">
+
+        <header>
+          <h2 class="h2 article-title">Blog</h2>
+        </header>
+
+        <section class="projects">
+
+         
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web design</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Applications</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web development</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web design</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Applications</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Finance</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-2.png" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Orizon</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-3.jpg" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Fundo</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Brawlhalla</h3>
+
+                <p class="project-category">Applications</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-5.png" alt="dsm." loading="lazy">
+                </figure>
+
+                <h3 class="project-title">DSM.</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">MetaSpark</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-7.png" alt="summary" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Summary</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Task Manager</h3>
+
+                <p class="project-category">Applications</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Arrival</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+
+      </article>
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d199666.5651251294!2d-121.58334177520186!3d38.56165006739519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ac672b28397f9%3A0x921f6aaa74197fdb!2sSacramento%2C%20CA%2C%20USA!5e0!3m2!1sen!2sbd!4v1647608789441!5m2!1sen!2sbd"
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
